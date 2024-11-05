@@ -5,6 +5,11 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import com.expensify.server.dtos.LoginUserDto;
+import com.expensify.server.dtos.RegisterUserDto;
+import com.expensify.server.model.User;
+import com.expensify.server.repository.UserRepository;
+
 @Service
 public class AuthenticationService {
 
